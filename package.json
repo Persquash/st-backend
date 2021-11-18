@@ -1,0 +1,33 @@
+{
+  "name": "st-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Luis Cochachi",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.799.0",
+    "@babel/cli": "^7.12.16",
+    "@babel/core": "^7.12.16",
+    "@babel/preset-env": "^7.12.16",
+    "@babel/register": "^7.12.13",
+    "babel-eslint": "^10.1.0",
+    "babel-jest": "^26.6.3",
+    "babel-preset-airbnb": "^5.0.0",
+    "jest": "^26.6.3",
+    "serverless-bundle": "^4.1.0"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.12.13",
+    "@middy/core": "^1.4.0",
+    "@middy/http-error-handler": "^1.4.0",
+    "@middy/http-event-normalizer": "^1.4.0",
+    "@middy/http-json-body-parser": "^1.4.0",
+    "@middy/validator": "^1.4.0",
+    "axios": "^0.21.1",
+    "http-errors": "^1.8.0"
+  }
+}
